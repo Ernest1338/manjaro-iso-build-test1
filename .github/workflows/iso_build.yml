@@ -55,7 +55,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           ###### EDIT HERE ######
-          repository: Ernest1338/iso-profiles
+          repository: Ernest1338/manjaro-iso-profiles-test1
           #######################
           token: "${{ secrets.GITHUB_TOKEN }}"
           path: 'iso-profiles'
