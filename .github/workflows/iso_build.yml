@@ -69,8 +69,9 @@ jobs:
         name: Install Build-Dependencies
         run: |
           sudo apt-get update
-          sudo apt install gdisk zip systemd-container bmap-tools asciidoc libarchive-tools git build-essential cmake libarchive-dev pkg-config libcurl4-openssl-dev libgpgme-dev libssl-dev fakeroot dh-autoreconf haveged os-prober kwalify dosfstools libisoburn1 squashfs-tools docbook2x
-
+          sudo apt install gdisk zip systemd-container bmap-tools asciidoc libarchive-tools git build-essential cmake libarchive-dev pkg-config libcurl4-openssl-dev libgpgme-dev libssl-dev fakeroot dh-autoreconf haveged os-prober kwalify dosfstools libisoburn1 squashfs-tools docbook2x doxygen python3-pip
+          sudo pip3 install meson
+          sudo pip3 install ninja
       -
         name: Install Pacman
         run: |          
