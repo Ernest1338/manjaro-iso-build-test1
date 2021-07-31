@@ -8,7 +8,7 @@ sudo mkdir /usr/share/wallpapers/DDMJ
 sudo wget https://raw.githubusercontent.com/Ernest1338/manjaro-iso-build-test1/main/DDMJOS/1920x1080.png -O /usr/share/wallpapers/DDMJ/1920x1080.png
 plasma-apply-wallpaperimage /usr/share/wallpapers/DDMJ/1920x1080.png
 
-# Setupping DDMJ directory
+# Setupping DDMJ directory if it doesn't exist yet
 mkdir ~/DDMJ
 
 # Getting the update checker and placing it on the desktop
