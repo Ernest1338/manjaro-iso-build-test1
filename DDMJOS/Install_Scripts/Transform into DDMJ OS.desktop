@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=bash /home/ddmj/Downloads/DDMJ.sh
+Exec=bash /home/ddmj/DDMJ/DDMJ.sh
 GenericName[en_US]=Transform into DDMJ OS
 GenericName=Transform into DDMJ OS
 Icon=alienarena
