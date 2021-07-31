@@ -31,8 +31,8 @@ kwriteconfig5 --file $HOME/.config/kwinrc --group Plugins --key contrastEnabled 
 kwriteconfig5 --file $HOME/.config/breezerc --group Style --key MenuOpacity "50"
 
 # Removing installation scripts
-#rm ~/Desktop/"Transform into DDMJ OS.desktop"
-#rm ~/DDMJ/DDMJ.sh
+rm ~/Desktop/"Transform into DDMJ OS.desktop"
+rm ~/DDMJ/DDMJ.sh
 
 # Restarting plasmashell
 pkill plasmashell
