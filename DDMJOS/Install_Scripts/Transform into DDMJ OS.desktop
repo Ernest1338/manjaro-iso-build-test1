@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=bash /home/ddmj/Downloads/DDMJ.sh
+GenericName[en_US]=Transform into DDMJ OS
+GenericName=Transform into DDMJ OS
+Icon=alienarena
+MimeType=
+Name[en_US]=Transform into DDMJ OS
+Name=Transform into DDMJ OS
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
