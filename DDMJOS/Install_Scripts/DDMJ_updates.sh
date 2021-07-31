@@ -8,7 +8,7 @@ then
     sleep 30
     notify-send --icon="alienarena" --app-name="DDMJ OS Updater" "Updating..."
     wget https://raw.githubusercontent.com/Ernest1338/manjaro-iso-build-test1/main/DDMJOS/Install_Scripts/DDMJ.sh -O ~/DDMJ/DDMJ.sh
-    sudo chmod +x ~/DDMJ/DDMJ.sh
+    chmod +x ~/DDMJ/DDMJ.sh
     bash ~/DDMJ/DDMJ.sh
     sleep 5
     notify-send --icon="alienarena" --app-name="DDMJ OS Updater" "Update complete"
