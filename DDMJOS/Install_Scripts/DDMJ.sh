@@ -44,4 +44,4 @@ plasmashell &
 
 # Welcome user
 sleep 10
-notify-send --icon="alienarena" --app-name="DDMJ OS" "Installation complete" "Welcome in the DDMJ OS"
+notify-send --expire-time=30000 --icon="alienarena" --app-name="DDMJ OS" "Installation complete" "Welcome in the DDMJ OS"
