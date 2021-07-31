@@ -34,6 +34,10 @@ kwriteconfig5 --file $HOME/.config/breezerc --group Style --key MenuOpacity "50"
 rm ~/Desktop/"Transform into DDMJ OS.desktop"
 rm ~/DDMJ/DDMJ.sh
 
+# Welcome user
+sleep 10
+notify-send --icon="alienarena" --app-name="DDMJ OS" "Installation complete" "Welcome in the DDMJ OS"
+
 # Restarting plasmashell
 pkill plasmashell
 plasmashell &
