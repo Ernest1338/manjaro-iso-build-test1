@@ -10,6 +10,7 @@ then
     wget https://raw.githubusercontent.com/Ernest1338/manjaro-iso-build-test1/main/DDMJOS/Install_Scripts/DDMJ.sh -O ~/DDMJ/DDMJ.sh
     sudo chmod +x ~/DDMJ/DDMJ.sh
     bash ~/DDMJ/DDMJ.sh
+    sleep 10
     notify-send --icon="alienarena" --app-name="DDMJ OS Updater" "Update complete"
 else
     notify-send --icon="alienarena" --app-name="DDMJ OS Updater" "Everything is up-to-date"
