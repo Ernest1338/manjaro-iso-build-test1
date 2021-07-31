@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Replacing firefor with brave on the bottom panel
+# Replacing firefox with brave on the bottom panel
 sed -i 's/firefox/brave-browser/' ~/.config/plasma-org.kde.plasma.desktop-appletsrc
 
 # Setting up wallpaper
