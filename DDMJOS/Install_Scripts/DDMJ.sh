@@ -27,6 +27,9 @@ sudo chmod +x ~/DDMJ/DDMJ_updates.sh
 # Configuring KWIN
 kwriteconfig5 --file $HOME/.config/kwinrc --group Plugins --key contrastEnabled "True"
 
+# Configuring breeze
+kwriteconfig5 --file $HOME/.config/breezerc --group Style --key MenuOpacity "50"
+
 # Removing installation scripts
 #rm ~/Desktop/"Transform into DDMJ OS.desktop"
 #rm ~/DDMJ/DDMJ.sh
