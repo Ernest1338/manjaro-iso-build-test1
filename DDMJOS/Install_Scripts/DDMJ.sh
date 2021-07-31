@@ -24,6 +24,9 @@ sudo chmod +x ~/Desktop/"Check for DDMJ OS updates.desktop"
 wget https://raw.githubusercontent.com/Ernest1338/manjaro-iso-build-test1/main/DDMJOS/Install_Scripts/DDMJ_updates.sh -O ~/DDMJ/DDMJ_updates.sh
 sudo chmod +x ~/DDMJ/DDMJ_updates.sh
 
+# Configuring KWIN
+kwriteconfig5 --file $HOME/.config/kwinrc --group Plugins --key contrastEnabled "True"
+
 # Removing installation scripts
 #rm ~/Desktop/"Transform into DDMJ OS.desktop"
 #rm ~/DDMJ/DDMJ.sh
