@@ -30,6 +30,10 @@ kwriteconfig5 --file $HOME/.config/kwinrc --group Plugins --key contrastEnabled 
 # Configuring breeze
 kwriteconfig5 --file $HOME/.config/breezerc --group Style --key MenuOpacity "50"
 
+# Configuring menu button
+wget https://raw.githubusercontent.com/Ernest1338/manjaro-iso-build-test1/main/DDMJOS/ddmj_logo.png -O ~/DDMJ/ddmj_logo.png
+kwriteconfig5 --file $HOME/.config/plasma-org.kde.plasma.desktop-appletsrc --group Containments --group 1 --group Applets --group 2 --group Configuration --group General --key icon "$HOME/DDMJ/ddmj_logo.png"
+
 # Removing installation scripts
 rm ~/Desktop/"Transform into DDMJ OS.desktop"
 rm ~/DDMJ/DDMJ.sh
