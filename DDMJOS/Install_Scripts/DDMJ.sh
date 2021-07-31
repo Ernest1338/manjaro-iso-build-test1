@@ -16,9 +16,7 @@ curl https://raw.githubusercontent.com/Ernest1338/manjaro-iso-build-test1/main/D
 
 # Setupping global theme
 mkdir -p ~/.local/share/plasma/desktoptheme/
-git clone https://github.com/yeyushengfan258/Win11OS-kde ~/DDMJ/Win11OS-kde
-bash ~/DDMJ/Win11OS-kde/install.sh
-lookandfeeltool -a com.github.yeyushengfan258.Win11OS-dark
+lookandfeeltool -a org.kde.breezedark.desktop
 
 # Getting the update checker and placing it on the desktop
 wget https://raw.githubusercontent.com/Ernest1338/manjaro-iso-build-test1/main/DDMJOS/Install_Scripts/Check%20for%20DDMJ%20OS%20updates.desktop -O ~/Desktop/"Check for DDMJ OS updates.desktop"
