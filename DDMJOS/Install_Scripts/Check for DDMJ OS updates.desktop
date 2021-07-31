@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=bash /home/ddmj/Downloads/DDMJ_updates.sh
+Exec=bash /home/ddmj/DDMJ/DDMJ_updates.sh
 GenericName[en_US]=Check for DDMJ OS updates
 GenericName=Check for DDMJ OS updates
 Icon=alienarena
